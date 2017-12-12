@@ -14,10 +14,20 @@ public class Formation {
 	
 	private String theme; // Thème formation
 	
+	private int nbJour;
+	
 	//Constructeur
 	public Formation() {
 	}
 	
+	public int getNbJour() {
+		return nbJour;
+	}
+
+	public void setNbJour(int nbJour) {
+		this.nbJour = nbJour;
+	}
+
 	// Getters et Setters
 	public Long getId() {
 		return id;
